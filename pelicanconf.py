@@ -6,14 +6,42 @@ AUTHOR = u'Hae Jin Song'
 SITENAME = u'small simplicity'
 SITEURL = ''
 
+# path
 PATH = 'content'
 STATIC_PATH = ['images', 'pdfs']
+THEME = 'theme'
 
+# time 
 TIMEZONE = 'America/New_York'
-
 DEFAULT_LANG = u'en'
 
-THEME = 'theme'
+# date format
+DATE_FORMATS = {
+    'en': '%Y-%m-%d',
+}
+DEFAULT_DATE = 'fs'
+WITH_FUTURE_DATES = True
+
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+# side bar
+SIDEBAR_NAME = 'Hae Jin Song (Hayley)'
+SIDEBAR_SUBNAME = 'computer vision | 3D reconstruction | machine learning'
+SIDEBAR_EMAIL = '<i>firstname</i>.<i>lastname</i>@mit.edu'
+SIDEBAR_LOCATION = 'Cambridge, MA'
+SIDEBAR_TAGS = ['cv',
+                'ml',
+                'recognition',
+		'semantics']
+
+# menu bar
+MENUITEMS = [('Home', '/'),
+             ('Projects', '/projects/'),
+             ('Publications', '/pubs/'),
+             ('About', '/about/'),
+             ]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -23,8 +51,6 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
