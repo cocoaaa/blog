@@ -1,9 +1,7 @@
-Title: Papers & Posters
+Title: Publications
 Date: 2016-12-23 
 
 (\*: Equal contribution)
-#    : redirect from web.mit.edu
-#    : about me page
 ---
 ## Generating Gaussian, Pictures, and Stories with Generative Adversarial Networks 
 #### *Hayley Song\**, Adam Yala\*

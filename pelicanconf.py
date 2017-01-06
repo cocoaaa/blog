@@ -7,19 +7,18 @@ from __future__ import unicode_literals
 AUTHOR = u'Hayley Song'
 SITENAME = u'small simplicity'
 SITESUBTITLE = u'this is a subtitle'
-SITEURL = 'http://cocoaaa.github.io/blog'
+#SITEURL = 'http://cocoaaa.github.io/blog'
 TIMEZONE = 'America/New_York'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d(%a)'
-
 DEFAULT_LANG = u'en'
 
 # Paths
 PATH = 'content'
-PAGE_PATH = ['pages']
+PAGE_PATHS = ['pages', 'pubs'] # A list of directories and files to look at for pages, relative to PATH.
 #ARTICLE_PATHS = ['posts',] #output folder for articles
 
-# add the following directories to the output folder
+# add the following directories to the output folder as is
 STATIC_PATHS = ['images', 'pdfs']
 
 # Feed generation is usually not desired when developing
@@ -28,6 +27,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+USE_FOLDER_AS_CATEGORY = True
+DEFAULT_CATEGORY = 'misc'
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+
 
 # Design
 TYPOGRIFY = True
