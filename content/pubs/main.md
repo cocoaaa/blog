@@ -1,7 +1,6 @@
 Title: Publications
 Date: 2016-12-23 
 
-(\*: Equal contribution)
 ---
 ## Generating Gaussian, Pictures, and Stories with Generative Adversarial Networks 
 #### *Hayley Song\**, Adam Yala\*
@@ -37,8 +36,8 @@ FreeFlow is a software for the pen-style, hand-held device that allows a user to
 
 In this project, we use the Dynamic Time Warping method and the Neearest Neighbor to design a recognizer for 3D alphabet gestures drawn in the air.  We collected the air gesture data from 11 users, and designed the features using speed, acceleration and rotation in the three dimensional space.  [todo: preprocessing and performance]
 
-
-
+---
+(\*: Equal contribution)
 
 
 
