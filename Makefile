@@ -1,16 +1,12 @@
 PY?=python
 PELICAN?=pelican
-PELICANOPTS=
+PELICANOPTS=--ignore-cache 
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-
-FTP_HOST=localhost
-FTP_USER=anonymous
-FTP_TARGET_DIR=/
 
 SSH_HOST=localhost
 SSH_PORT=22

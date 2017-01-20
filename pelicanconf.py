@@ -3,10 +3,12 @@
 # https://raw.githubusercontent.com/getpelican/pelican/master/samples/pelican.conf.py
 
 from __future__ import unicode_literals
+from landing_page import *
+
 
 AUTHOR = u'Hayley Song'
 SITENAME = u'small simplicity'
-SITESUBTITLE = u'this is a subtitle'
+SITESUBTITLE = u'hae jin song // hayley'
 #SITEURL = 'http://cocoaaa.github.io/blog'
 TIMEZONE = 'America/New_York'
 DEFAULT_DATE = 'fs'
@@ -31,7 +33,7 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = 'misc'
 DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 
 
 
@@ -43,7 +45,7 @@ THEME = 'themes/elegant' # path relative to the settings file
 #CSS_FILE = "css/hyde.css"
 
 THEME_STATIC_DIR = '_theme' #destination directory in the output path
-#THEME_STATIC_PATHS = [''] #static theme paths you want to copy
+THEME_STATIC_PATHS = ['themes/elegant'] #static theme paths you want to copy
 
 # Link and Save
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
@@ -58,7 +60,9 @@ DRAFT_SAVE_AS = 'drafts/{slug}.html'
 
 ## If you do not want one or more of the default pages to be created (e.g., you are the only author on your site and thus do not need an Authors page), set the corresponding *_SAVE_AS setting to ''
 AUTHOR_SAVE_AS = ''
-
+TAG_SAVE_AS = ''
+### From Elegant theme config
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 ## archieve
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
