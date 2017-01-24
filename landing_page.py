@@ -54,7 +54,7 @@ LANDING_PAGE_ABOUT = {
         </p>
 
         <p>Besides working on my <a href="https://cocoaaa.github.io/blog/pages/publications/">projects</a>,
-        I enjoy being in the nature and trying out different sports such as scuba diving and sky-diving..  
+        I enjoy being in nature and trying out different sports such as scuba diving and sky-diving..  
         I am happy when I'm biking, swimming, wandering  and sharing experiences with people I love. 
         </p>
 	''',
