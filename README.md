@@ -27,6 +27,26 @@ git branch #check if you are on the source branch
 git commit -am "message"
 git push origin source
 
+---
+#2017-01-24 
+#Yet another workflow. See updated Makefile
+make html: writes content/ to output/ using local config
+make publish: writes content/ to output/ using remote config
+(Note: whether to delete output/ everytime remote conf is used
+        is set in the publishconf.py)
+make clean: deletes the output folder
+make github: 1) make sure I'm in the source branch
+             2) upload source branch's output/ to master branch's output/
+             3) push the local output/ in master branch to the remote branch
+
+#summary
+to publish to the remote server do in the source branch:
+1) make clean && make publish 
+(!CAUTION: this deletes all the old files not in the current output folder)
+                        
+2) make github
+
+
 ## References
 http://docs.getpelican.com/en/stable/settings.html
 
