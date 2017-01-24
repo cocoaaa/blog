@@ -40,7 +40,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 TYPOGRIFY = True
 #MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
 
-THEME = 'themes/elegant' # path relative to the settings file
+THEME = 'themes/elegant' # path relative to the settings file. Need it to generate the correct html??(ie. for local use?)
 #CSS_FILE = "themes/elegant/static/css/solarizedlight.css"
 
 THEME_STATIC_DIR = 'theme' #destination directory in the output path
