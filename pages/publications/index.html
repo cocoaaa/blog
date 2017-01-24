@@ -12,6 +12,7 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="../../theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="../../theme/css/solarizedlight.css" media="screen">
+        <!--
         <link rel="shortcut icon" href="../../theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="../../theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="../../theme/images/apple-touch-icon-57x57.png" />
@@ -19,6 +20,7 @@
         <link rel="apple-touch-icon" sizes="114x114" href="../../theme/images/apple-touch-icon-114x114.png" />
         <link rel="apple-touch-icon" sizes="144x144" href="../../theme/images/apple-touch-icon-144x144.png" />
         <link rel="icon" href="../../theme/images/apple-touch-icon-144x144.png" />
+        -->
     </head>
     <body>
         <div id="content-sans-footer">
@@ -35,9 +37,11 @@
                         <ul class="nav pull-right top-menu">
                             <li ><a href="../..">Home</a></li>
                             <li ><a href="../../pages/publications/">Publications</a></li>
+                            <!--
                             <li ><a href="../../categories.html">Categories</a></li>
                             <li ><a href="../../tags.html">Tags</a></li>
                             <li ><a href="../../archives.html">Archives</a></li>
+                            -->
                             <li><form class="navbar-search" action="../../search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
                     </div>
@@ -58,21 +62,20 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
 
-            <hr>
-<h2>Generating Gaussian, Pictures, and Stories with Generative Adversarial&nbsp;Networks</h2>
+            <h2>Generating Gaussian, Pictures, and Stories with Generative Adversarial&nbsp;Networks</h2>
 <h4><em>Hayley Song*</em>, Adam&nbsp;Yala*</h4>
-<p><a href="../../pdfs/generating-gaussians-pictures.pdf">paper</a>  </p>
-<p>In this paper, we explore the framework of Adversarial Training as introduced in the <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">original paper</a> by Goodfellow et al.. Generative Aversarial Network (<span class="caps">GAN</span>) is a semi-supervised training method and has shown promising results in various tasks such as Image Generation, Transfer Learning, Imitation Learning and Text Generation.  We aim to expose the issues and suceesses of GANs while experimenting through diverse generation tasks.  Specifically, we work through generating a Gaussian distribution, images, and texts.  For each experiement, we investigate the effects of parameters (e.g  pre-training of the discriminator) on the convergence and the performance of the adversarial&nbsp;nets.</p>
+<p><a href="../../pdfs/generating-gaussians-pictures.pdf">paper</a> (2016 Fall)   <br>
+In this paper, we explore the framework of Adversarial Training as introduced in the <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">original paper</a> by Goodfellow et al.. Generative Aversarial Network (<span class="caps">GAN</span>) is a semi-supervised training method and has shown promising results in various tasks such as Image Generation, Transfer Learning, Imitation Learning and Text Generation.  We aim to expose the issues and suceesses of GANs while experimenting through diverse generation tasks.  Specifically, we work through generating a Gaussian distribution, images, and texts.  For each experiement, we investigate the effects of parameters (e.g  pre-training of the discriminator) on the convergence and the performance of the adversarial&nbsp;nets.</p>
 <hr>
 <h2>Automatic Cell Detection using <span class="caps">HOG</span> features and <span class="caps">SVM</span></h2>
 <h4>Nicha Apichitsopa*, Boying Meng*, <em>Hayley&nbsp;Song*</em></h4>
-<p><a href="../../pdfs/6_869_Final__cell_detection.pdf">paper</a>, <a href="#">video</a>, <a href="../../pdfs/6.869-cell-detection-ppt.pdf">slides</a></p>
-<p><img alt="cell-detection-comparison" src="../../images/cell_detection/cell-detection-comparison.png"><br>
+<p><a href="../../pdfs/6_869_Final__cell_detection.pdf">paper</a>, <a href="#">video</a>, <a href="../../pdfs/6.869-cell-detection-ppt.pdf">slides</a> (2016 Fall)  <br>
+<img alt="cell-detection-comparison" src="../../images/cell_detection/cell-detection-comparison.png">    <br>
 The analysis of cell trajectories inside microchannels is a critical part of many microfluidic systems. This task requires automated cell detection and cell tracking algorithms in order to reliably extract cell positions over time.  Such algorithms need be robust against shape deformation, variable illumination, and noises from sensors and cell movements. In this report, we prove the ability of our machine-learning detection algorithm based on the Histogram of Oriented Gradients (<span class="caps">HOG</span>) and Support Vector Machines (SVMs), and compare its performances to the classic image segmentation method. We also investiage different features extracted by various machine learning algorithms and discuss how they affect the performances of cell detection and&nbsp;tracking.  </p>
 <hr>
 <h2>FreeFlow: Unintrusive Reading Device for Printed&nbsp;Texts</h2>
 <h4><em>Hayley Song</em>, Suvrit&nbsp;Sra</h4>
-<p><a href="../../pdfs/free-flow-hjsong.pdf">paper</a>, <a href="../../images/free-flow/free-flow-hjsong-poster.png">poster</a>  </p>
+<p><a href="../../pdfs/free-flow-hjsong.pdf">paper</a>, <a href="../../images/free-flow/free-flow-hjsong-poster.png">poster</a>  (2016&nbsp;Spring)</p>
 <p><img alt="free-flow-demo" src="../../images/free-flow/free-flow-demo.png">
 <img alt="free-flow-workflow" src="../../images/free-flow/free-flow-workflow.png">  </p>
 <p>FreeFlow is a software for the pen-style, hand-held device that allows a user to search for definitions by &#8220;clicking&#8221; on the printed text. It is the first end-to-end system that performs such functions with high accuracy (95%) under variable illumination and motion blur from hand movements. It is composed of the four main modules: 1) capture, 2) preprocessing, 3) recogtnition and 4) dictionary search. In this paper, we discuss the details of our system and its performances under various real-world&nbsp;settings. </p>
@@ -88,9 +91,11 @@ The analysis of cell trajectories inside microchannels is a critical part of man
         </div>
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
- 
+
+            <!--
             <h4>Published</h4>
             <time pubdate="pubdate" datetime="2016-12-23T00:00:00-05:00">Dec 23, 2016</time>
+            -->
       
         </div>
         </section>
