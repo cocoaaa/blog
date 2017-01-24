@@ -26,6 +26,7 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/solarizedlight.css" media="screen">
         {% endblock head_links %}
+        <!--
         <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="{{ SITEURL }}/theme/images/apple-touch-icon-57x57.png" />
@@ -34,6 +35,7 @@
         <link rel="apple-touch-icon" sizes="144x144" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
         <link rel="icon" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
         {% include 'feeds.html' %}
+        -->
         {% include 'analytics.html' %}
     </head>
     <body>
@@ -55,9 +57,11 @@
                             <li {% if output_file == page.url %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                             {% endfor %}
                             {% endif %}
+                            <!--
                             <li {% if page_name == "categories" %} class="active"{% endif %}><a href="{{ SITEURL }}/categories.html">Categories</a></li>
                             <li {% if page_name == "tags" %} class="active"{% endif %}><a href="{{ SITEURL }}/tags.html">Tags</a></li>
                             <li {% if page_name == "archives" %} class="active"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+                            -->
                             <li><form class="navbar-search" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
                     </div>

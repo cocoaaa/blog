@@ -35,16 +35,14 @@ DEFAULT_CATEGORY = 'misc'
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
-
-
 # Design
 TYPOGRIFY = True
 #MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
 
 THEME = 'themes/elegant' # path relative to the settings file
-#CSS_FILE = "css/hyde.css"
+#CSS_FILE = "themes/elegant/static/css/solarizedlight.css"
 
-THEME_STATIC_DIR = '_theme' #destination directory in the output path
+THEME_STATIC_DIR = 'theme' #destination directory in the output path
 THEME_STATIC_PATHS = ['themes/elegant'] #static theme paths you want to copy
 
 # Link and Save
@@ -62,7 +60,8 @@ DRAFT_SAVE_AS = 'drafts/{slug}.html'
 AUTHOR_SAVE_AS = ''
 TAG_SAVE_AS = ''
 ### From Elegant theme config
-DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+#DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+DIRECT_TEMPLATES = (('index', 'search'))
 ## archieve
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
@@ -71,20 +70,22 @@ MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         )
 
 # Social widget
 SOCIAL = (('Github', 'https://cocoaaa.github.com'),
-        ('LinkedIn', 'http://todo'),
+        ('LinkedIn', 'http://https://www.linkedin.com/in/hayleysong'),
         )
 
 DEFAULT_PAGINATION = 10
-
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 #DISPLAY_PAGES_ON_MENU = False
 
+#Don't show published date for pages
+#Look at page.html
+#page = {'date': False}; this is wrong. should be set in each page md's metafield
 
 # Prevent caching of previous settings (esp. the metadata ones)
 LOAD_CONTENT_CACHE = False

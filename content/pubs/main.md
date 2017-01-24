@@ -1,25 +1,22 @@
 Title: Publications
-Date: 2016-12-23 
-
+Date: 2016-12-23
 ---
 ## Generating Gaussian, Pictures, and Stories with Generative Adversarial Networks 
 #### *Hayley Song\**, Adam Yala\*
-[paper]({filename}../pdfs/generating-gaussians-pictures.pdf)  
-
+[paper]({filename}../pdfs/generating-gaussians-pictures.pdf) (2016 Fall)     
 In this paper, we explore the framework of Adversarial Training as introduced in the [original paper](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) by Goodfellow et al.. Generative Aversarial Network (GAN) is a semi-supervised training method and has shown promising results in various tasks such as Image Generation, Transfer Learning, Imitation Learning and Text Generation.  We aim to expose the issues and suceesses of GANs while experimenting through diverse generation tasks.  Specifically, we work through generating a Gaussian distribution, images, and texts.  For each experiement, we investigate the effects of parameters (e.g  pre-training of the discriminator) on the convergence and the performance of the adversarial nets.
 
 ---
 ## Automatic Cell Detection using HOG features and SVM
-#### Nicha Apichitsopa\*, Boying Meng\*, *Hayley Song\**   
-[paper]({filename}../pdfs/6_869_Final__cell_detection.pdf), [video](#), [slides]({filename}../pdfs/6.869-cell-detection-ppt.pdf)
-
-![cell-detection-comparison]({filename}../images/cell_detection/cell-detection-comparison.png)  
+#### Nicha Apichitsopa\*, Boying Meng\*, *Hayley Song\**
+[paper]({filename}../pdfs/6_869_Final__cell_detection.pdf), [video](#), [slides]({filename}../pdfs/6.869-cell-detection-ppt.pdf) (2016 Fall)    
+![cell-detection-comparison]({filename}../images/cell_detection/cell-detection-comparison.png)      
 The analysis of cell trajectories inside microchannels is a critical part of many microfluidic systems. This task requires automated cell detection and cell tracking algorithms in order to reliably extract cell positions over time.  Such algorithms need be robust against shape deformation, variable illumination, and noises from sensors and cell movements. In this report, we prove the ability of our machine-learning detection algorithm based on the Histogram of Oriented Gradients (HOG) and Support Vector Machines (SVMs), and compare its performances to the classic image segmentation method. We also investiage different features extracted by various machine learning algorithms and discuss how they affect the performances of cell detection and tracking.  
 
 ---
 ## FreeFlow: Unintrusive Reading Device for Printed Texts
 #### *Hayley Song*, Suvrit Sra
-[paper]({filename}../pdfs/free-flow-hjsong.pdf), [poster]({filename}../images/free-flow/free-flow-hjsong-poster.png)  
+[paper]({filename}../pdfs/free-flow-hjsong.pdf), [poster]({filename}../images/free-flow/free-flow-hjsong-poster.png)  (2016 Spring)
 
 ![free-flow-demo]({filename}../images/free-flow/free-flow-demo.png)
 ![free-flow-workflow]({filename}../images/free-flow/free-flow-workflow.png)  
