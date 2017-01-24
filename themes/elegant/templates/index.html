@@ -27,10 +27,33 @@
         </div>
         {% endif %}
 
+        {% if PROFILE %}
+        <div class="span4">
+            <header>
+            <h1 id="my-projects">Hae Jin (Hayley)</h1>
+            </header>
+            helloooo!!!!
+            <img src= "PROFILE.image_path"/>
+            <ul class="list-all-articles">
+                <li>
+                <a href="PROFILE.cv_path">CV
+                </li>
+                <li>
+                email: {{ PROFILE.email }}
+                </li>
+                <li>
+                github: {{ PROFILE.github }}
+                </li>
+                 </ul>
+        </div>
+        {% endif %}
+
+
         {% if PROJECTS %}
         <div class="span4">
             <header>
             <h1 id="my-projects">My Projects</h1>
+            </header>
             {% for project in PROJECTS %}
             <ul class="list-all-articles">
                 <li>

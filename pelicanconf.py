@@ -4,6 +4,7 @@
 
 from __future__ import unicode_literals
 from landing_page import *
+from profile import *
 
 
 AUTHOR = u'Hayley Song'
