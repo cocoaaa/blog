@@ -296,7 +296,7 @@ a {
 
 /* archives */
 ul.list-all-articles {
-    list-style: square;
+    list-style: disc;
     margin:0px;
 }
 

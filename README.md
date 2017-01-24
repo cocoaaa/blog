@@ -46,6 +46,9 @@ to publish to the remote server do in the source branch:
                         
 2) make github
 
+or. 
+1)make html && make github
+
 
 ## References
 http://docs.getpelican.com/en/stable/settings.html

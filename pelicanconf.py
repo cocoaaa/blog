@@ -41,11 +41,9 @@ TYPOGRIFY = True
 #MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
 
 THEME = 'themes/elegant' # path relative to the settings file. Need it to generate the correct html??(ie. for local use?)
-#CSS_FILE = "themes/elegant/static/css/solarizedlight.css"
-
 THEME_STATIC_DIR = 'theme' #destination directory in the output path
-THEME_STATIC_PATHS = ['themes/elegant'] #static theme paths you want to copy
-
+THEME_STATIC_PATHS = ['static']	 #$THEME/THEME_STATIC_PATHS 's content will be 
+								# saved to output/s THEME_STATIC_DIR
 # Link and Save
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
