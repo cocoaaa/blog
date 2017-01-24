@@ -16,6 +16,9 @@ DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d(%a)'
 DEFAULT_LANG = u'en'
 
+# super important
+DELETE_OUTPUT_DIRECTORY = True
+
 # Paths
 PATH = 'content'
 PAGE_PATHS = ['pages', 'pubs'] # A list of directories and files to look at for pages, relative to PATH.
