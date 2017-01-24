@@ -87,7 +87,7 @@ stopserver:
 
 github:
 	git checkout $(GITHUB_SOURCE_BRANCH)
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
+	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) #upload to the local branch"
+	git push origin $(GITHUB_PAGES_BRANCH) #push to the remote branch"
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
