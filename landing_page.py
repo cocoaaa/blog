@@ -11,19 +11,20 @@ LANDING_PAGE_ABOUT = {
 	<p>
 	Hello! 
 	My name is Hae Jin (Hayley), and I'm currently a student at <a href="#">MIT EECS</a>
-	(concentration: AI) pursuing a Masters in Engineering under the joint	supervision of 
-        Professor. <a href="https://people.csail.mit.edu/regina/">Regina Barzilay</a>, 
-	Professor. <a href="http://people.csail.mit.edu/wojciech/">Wojciech Matusik</a>, and
+	(concentration: AI) pursuing a Masters in Engineering under the joint supervision of 
+        Professor <a href="https://people.csail.mit.edu/regina/">Regina Barzilay</a>, 
+	Professor <a href="http://people.csail.mit.edu/wojciech/">Wojciech Matusik</a>, and
 	a Ph.D candidate, <a href="http://people.csail.mit.edu/jstraub/">Julian Straub</a>.
 	
 	Before my Masters, I studied Mathematics and EECS at MIT for my undergraduate studies.
 	</p>
 
 	<p>
-	I'm curious about what we call 'intelligence', especially the three-dimensional perception.
+	I'm curious about what we call 'intelligence', especially in the domain of computer vision and 
+	three-dimensional perception.
 	<ul>
 		
-                <li>Understanding of the functional and causal relations between 
+        <li>Understanding of the functional and causal relations between 
 			objects in a visual scene
 		</li>
 
@@ -54,8 +55,8 @@ LANDING_PAGE_ABOUT = {
         </p>
 
         <p>Besides working on my <a href="https://cocoaaa.github.io/blog/pages/publications/">projects</a>,
-        I enjoy being in nature and trying out different sports such as scuba diving and sky-diving..  
-        I am happy when I'm biking, swimming, wandering  and sharing experiences with people I love. 
+        I enjoy being in nature and trying out different sports such as scuba diving and sky-diving.  
+        I am happy when I'm biking, swimming, wandering  and sharing the present experiences with friends. 
         </p>
 	''',
 

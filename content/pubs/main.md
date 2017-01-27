@@ -1,4 +1,4 @@
-Title: Projects
+Title: Publications
 Date: 2016-12-23
 ---
 ## Generating Gaussian, Pictures, and Stories with Generative Adversarial Networks 
